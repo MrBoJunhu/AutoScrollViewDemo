@@ -15,6 +15,10 @@
 		A5C8530D1F1DAE3E00E048A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C8530B1F1DAE3E00E048A5 /* LaunchScreen.storyboard */; };
 		A5C853181F1DAE3E00E048A5 /* AutoScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C853171F1DAE3E00E048A5 /* AutoScrollViewDemoTests.m */; };
 		A5C853231F1DAE3E00E048A5 /* AutoScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C853221F1DAE3E00E048A5 /* AutoScrollViewDemoUITests.m */; };
+		A5C853321F1DAF3500E048A5 /* AutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C853311F1DAF3500E048A5 /* AutoScrollView.m */; };
+		A5C853361F1DB17B00E048A5 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C853331F1DB17B00E048A5 /* 0.jpg */; };
+		A5C853371F1DB17B00E048A5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C853341F1DB17B00E048A5 /* 1.jpg */; };
+		A5C853381F1DB17B00E048A5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C853351F1DB17B00E048A5 /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		A5C8531E1F1DAE3E00E048A5 /* AutoScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C853221F1DAE3E00E048A5 /* AutoScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoScrollViewDemoUITests.m; sourceTree = "<group>"; };
 		A5C853241F1DAE3E00E048A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C853301F1DAF3500E048A5 /* AutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollView.h; sourceTree = "<group>"; };
+		A5C853311F1DAF3500E048A5 /* AutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollView.m; sourceTree = "<group>"; };
+		A5C853331F1DB17B00E048A5 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		A5C853341F1DB17B00E048A5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		A5C853351F1DB17B00E048A5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +110,13 @@
 		A5C852FC1F1DAE3E00E048A5 /* AutoScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5C853331F1DB17B00E048A5 /* 0.jpg */,
+				A5C853341F1DB17B00E048A5 /* 1.jpg */,
+				A5C853351F1DB17B00E048A5 /* 2.jpg */,
 				A5C853001F1DAE3E00E048A5 /* AppDelegate.h */,
 				A5C853011F1DAE3E00E048A5 /* AppDelegate.m */,
+				A5C853301F1DAF3500E048A5 /* AutoScrollView.h */,
+				A5C853311F1DAF3500E048A5 /* AutoScrollView.m */,
 				A5C853031F1DAE3E00E048A5 /* ViewController.h */,
 				A5C853041F1DAE3E00E048A5 /* ViewController.m */,
 				A5C853061F1DAE3E00E048A5 /* Main.storyboard */,
@@ -249,9 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C853381F1DB17B00E048A5 /* 2.jpg in Resources */,
+				A5C853361F1DB17B00E048A5 /* 0.jpg in Resources */,
 				A5C8530D1F1DAE3E00E048A5 /* LaunchScreen.storyboard in Resources */,
 				A5C8530A1F1DAE3E00E048A5 /* Assets.xcassets in Resources */,
 				A5C853081F1DAE3E00E048A5 /* Main.storyboard in Resources */,
+				A5C853371F1DB17B00E048A5 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +295,7 @@
 			files = (
 				A5C853051F1DAE3E00E048A5 /* ViewController.m in Sources */,
 				A5C853021F1DAE3E00E048A5 /* AppDelegate.m in Sources */,
+				A5C853321F1DAF3500E048A5 /* AutoScrollView.m in Sources */,
 				A5C852FF1F1DAE3E00E048A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +534,7 @@
 				A5C853291F1DAE3E00E048A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C8532A1F1DAE3E00E048A5 /* Build configuration list for PBXNativeTarget "AutoScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				A5C8532C1F1DAE3E00E048A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C8532D1F1DAE3E00E048A5 /* Build configuration list for PBXNativeTarget "AutoScrollViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				A5C8532F1F1DAE3E00E048A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
